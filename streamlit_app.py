@@ -46,4 +46,12 @@ st.write (slownik)
 # imie=krzystof
 # nazwisko=kajak
 for key in slownik:
-    st.write (key)
+    st.write (key, slownik[key])
+
+for tupl in slownik.items():
+    key, value = tupl
+    st.write (key, value)
+
+for key, value in slownik.items():
+    st.write (key, value)
+
