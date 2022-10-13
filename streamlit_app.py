@@ -43,3 +43,7 @@ for elem in lista:
 
 slownik = {"imie":"krzysztof", "nazwisko":"kajak"}
 st.write (slownik)
+# imie=krzystof
+# nazwisko=kajak
+for key in slownik:
+    st.write (key)
