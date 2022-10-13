@@ -37,6 +37,9 @@ with st.echo(code_location='below'):
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
 
-slownik = [1,2,3,4,5]
-for elem in slownik:
+lista = [1,2,3,4,5]
+for elem in lista:
     st.write (elem)
+
+slownik = {"imie":"krzysztof", "nazwisko":"kajak"}
+st.write (slownik)
