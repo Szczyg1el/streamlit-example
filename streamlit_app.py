@@ -61,6 +61,6 @@ st.write ("imie", slownik["imie"])
 import json
 from pathlib import Path 
 github_issues= json.loads(Path("ss.json").read_text())
-github_issue = github_issue[0]
+github_issue = github_issues[0]
 
 st.write(github_issue) 
