@@ -72,5 +72,10 @@ st.write (user["login"])
 
 st.write (github_issue["pull_request"]["url"])
 
+st.write (github_issue["labels"])
 st.write (github_issue["labels"][0])
 st.write (github_issue["labels"][0]["name"])
+
+labels = github_issue["labels"]
+for label in labels:
+    st.write (label["description"])    
