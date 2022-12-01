@@ -60,7 +60,7 @@ st.write (slownik["imie"])
 
 import json
 from pathlib import Path 
-github_issues= json.loads(Path("ss.json").read_text())
+github_issues = json.loads(Path("ss.json").read_text())
 github_issue = github_issues[0]
 
 st.write(github_issue) 
@@ -79,3 +79,7 @@ st.write (github_issue["labels"][0]["name"])
 labels = github_issue["labels"]
 for label in labels:
     st.write (label["description"])    
+
+
+for record in github_issues:
+    st.write (record["title"]["url"])
