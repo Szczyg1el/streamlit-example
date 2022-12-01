@@ -65,4 +65,7 @@ github_issue = github_issues[0]
 
 st.write(github_issue) 
 
-st.write (github_issue["user"]) 
+st.write (github_issue["user"]["login"]) 
+
+user = github_issue["user"]
+st.write (user["login"]) 
