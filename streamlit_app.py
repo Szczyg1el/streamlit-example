@@ -55,3 +55,4 @@ for tupl in slownik.items():
 for key, value in slownik.items():
     st.write (key, value)
 
+st.write ("imie", slownik["imie"])
