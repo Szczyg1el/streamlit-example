@@ -83,3 +83,7 @@ for label in labels:
 
 for record in github_issues:
     st.write (record["title"],github_issue["url"])
+
+for record in github_issues:
+    st.title (record["title"])
+    st.write (github_issue["url"])
