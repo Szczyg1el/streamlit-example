@@ -86,5 +86,8 @@ for record in github_issues:
 
 for record in github_issues:
     st.title (record["title"])
-    st.write (github_issue["url"])
-    st.write (github_issue["labels"])
+    st.write (record["url"])
+
+    labels = record["labels"]
+    for label in labels:
+        st.write (label["name"])
