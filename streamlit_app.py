@@ -55,7 +55,7 @@ for tupl in slownik.items():
 for key, value in slownik.items():
     st.write (key, value)
 
-st.write ("imie", slownik["imie"])
+st.write (slownik["imie"])
 
 
 import json
@@ -64,3 +64,5 @@ github_issues= json.loads(Path("ss.json").read_text())
 github_issue = github_issues[0]
 
 st.write(github_issue) 
+
+st.write (github_issue["user"]) 
