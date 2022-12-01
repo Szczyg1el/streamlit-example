@@ -82,4 +82,4 @@ for label in labels:
 
 
 for record in github_issues:
-    st.write (record["title"]["url"])
+    st.write (record["title"],["url"])
