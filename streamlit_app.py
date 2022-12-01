@@ -69,3 +69,5 @@ st.write (github_issue["user"]["login"])
 
 user = github_issue["user"]
 st.write (user["login"]) 
+
+st.write (github_issue["pull_request"]["url"])
