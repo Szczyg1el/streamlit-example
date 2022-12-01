@@ -73,3 +73,4 @@ st.write (user["login"])
 st.write (github_issue["pull_request"]["url"])
 
 st.write (github_issue["labels"][0])
+st.write (github_issue["labels"][0]["name"])
