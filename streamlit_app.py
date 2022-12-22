@@ -89,10 +89,15 @@ for record in github_issues:
     st.write (record["url"])
     
     labels = record["labels"]
-    for label in labels:
-        st.write (label["name"])
+    # for label in labels:
+    #     st.write (label["name"])
     
     # tab = ["AA", "BB"]
 
+    tablicaa = []
+
+    for label in labels:
+        tablicaa.append(label["name"])
+        st.write (", ".join(tablicaa)) 
 
     # st.write(", ".join(tab))
