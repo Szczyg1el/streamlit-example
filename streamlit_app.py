@@ -97,7 +97,7 @@ for record in github_issues:
     tablicaa = []
 
     for label in labels:
-        tablicaa.append(label["name"])
+        tablicaa.append(label["name"].strip())
     st.write(repr(tablicaa))
     st.write(repr(", ".join(tablicaa))) 
 
