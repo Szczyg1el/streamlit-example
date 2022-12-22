@@ -98,6 +98,7 @@ for record in github_issues:
 
     for label in labels:
         tablicaa.append(label["name"])
+    st.write(repr(tablica))
     st.write(repr(", ".join(tablicaa))) 
 
     # st.write(", ".join(tab))
